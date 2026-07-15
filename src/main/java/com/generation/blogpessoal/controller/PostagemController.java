@@ -32,6 +32,8 @@ public class PostagemController {
 	
 	@Autowired
 	private PostagemRepository postagemRepository;
+	
+	@Autowired
 	private TemaRepository temaRepository;
 	
 	@GetMapping  //getall -> retorna todos os objetos da classe Postagem
